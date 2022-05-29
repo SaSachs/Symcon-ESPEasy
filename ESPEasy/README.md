@@ -54,4 +54,5 @@ Schalten eines Ausgangs (nur Variablen Type Bool(Output))
 
 Beispiel:
 `RequestAction(12345,true);  //Einschalten`
+
 `RequestAction(12345,false); //Ausschalten`
