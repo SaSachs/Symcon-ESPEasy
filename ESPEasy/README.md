@@ -35,9 +35,6 @@ __Konfigurationsseite__:
 Name          | Beschreibung
 --------      | ------------------
 Unit Name     | Name des ESPEasy-Geräts - In ESPEasy zu finden unter Config - Unit Name (zugleich MQTT Topic)
-              |
-Devices       | Liste mit den zu wählenden Werten
-              |
 Task Name     | Name des Devices - Zu finden unter Devices - Add/Edit - Name
 Value Name    | Name des Werts in ESPEasy - Zu finden unter Devices Add/Edit - Values - Name
 Variable Name | Variablenname in Symcon - Variable wird automatisch erzeugt
