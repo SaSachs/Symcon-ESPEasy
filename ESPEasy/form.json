@@ -1,0 +1,92 @@
+{
+    "elements":
+    [
+        { "type": "ValidationTextBox", "name": "sysname", "caption": "Unit Name" },	
+
+		{
+			"type": "List",
+			"name": "devlist",
+			"caption": "Devices",
+			"rowCount": 15,
+			"add": true,
+			"delete": true,
+			"sort": {
+				"column": "tskname",
+				"direction": "ascending"
+			},
+			"columns": [{
+				"caption": "Task Name",
+				"name": "tskname", 
+				"width": "15%",
+				"add": "",
+				"edit": {
+					"type": "ValidationTextBox"
+				}
+			}, {
+				"caption": "Value Name",
+				"name": "valname",
+				"width": "15%",
+				"add": "",
+				"edit": {
+					"type": "ValidationTextBox"
+				}
+			},{
+				"caption": "Variable Name",
+				"name": "varname",
+				"width": "15%",
+				"add": "",
+				"edit": {
+					"type": "ValidationTextBox"
+				}
+			}, {
+				"caption": "Type",
+				"name": "type",
+				"width": "15%",
+				"add": "",
+				"edit": { 
+					"type": "Select",					
+					"options": [
+						{ "caption": "Bool (Output)", "value": -1 },
+						{ "caption": "Bool (Input)", "value": 0 },
+						{ "caption": "Integer", "value": 1 },
+						{ "caption": "Float", "value": 2 },
+						{ "caption": "String", "value": 3 }
+						
+					]
+				}
+				
+			}, {
+				"caption": "Variable Profile",
+				"name": "varprofile",
+				"width": "15%",
+				"add": "",
+				"edit": {
+					"type": "SelectProfile"
+				}
+			}, {
+				"caption": "Inverted",
+				"name": "inverted",
+				"width": "5%",
+				"add": "",
+				"edit": {
+					"type": "CheckBox",
+					"value": false
+				}
+			}, {
+				"caption": "GPIO",
+				"name": "gpio",
+				"width": "5%",
+				"add": "",
+				"edit": {
+					"type": "NumberSpinner",	
+					"digits": 0
+				}
+			}]
+		}
+    ],
+    "actions": [
+        {
+            "type": "TestCenter"
+        }
+    ]
+}
