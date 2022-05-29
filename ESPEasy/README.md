@@ -49,7 +49,7 @@ Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzeln
 
 ### 6. PHP-Befehlsreferenze
 
-`boolean RequestAction($VariablenID, $Value);`
+`RequestAction($VariablenID, $Value);`
 Schalten eines Ausgangs (nur Variablen Type Bool(Output))
 
 Beispiel:
