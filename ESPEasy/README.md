@@ -1,4 +1,4 @@
-# switch
+# ESPEasy
 Beschreibung des Moduls.
 
 ### Inhaltsverzeichnis
